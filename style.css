@@ -139,8 +139,26 @@ body {
 }
 
 .project-card {
+  display: flex;
+  flex-direction: column;
   background-color: var(--second-color);
-  padding: 30px;
+  padding: 35px;
+  border-left: var(--primary-bg-color) 7px solid;
+  border-radius: 15px;
+  justify-content: space-evenly;
+}
+
+.project-card h3 {
+  padding-bottom: 10px;
+}
+
+.project-card p {
+  line-height: 1.2;
+}
+
+.icon-bottom {
+  padding-top: 15px;
+  align-self: flex-end;
 }
 
 section .info {
